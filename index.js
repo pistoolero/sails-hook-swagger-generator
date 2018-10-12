@@ -9,7 +9,7 @@ module.exports = function (sails) {
         defaults: {
             disabled: false,
             __configKey__: {
-                swaggerJsonPath: sails.config.appPath + "/swagger/swagger.json",
+                swaggerJsonPath: sails.config.appPath + "/assets/swagger.json",
                 parameters: { //we can add up custom parameters here
                     PerPageQueryParam: {
                         in: 'query',
